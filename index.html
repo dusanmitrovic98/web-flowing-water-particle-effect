@@ -49,3 +49,4 @@
         this.y += this.speedY;
 
         // Wrap around the canvas edges
+        if (this.x < 0) this.x = canvas.width;
